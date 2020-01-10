@@ -8,6 +8,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 4. [JS에서 재귀호출로 인한 stack overflow를 막을 수 있는 방법은?](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/4_prevent_recursion_stack-overflow.md)
 5. [closure와 스코프의 관계를 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/5_clouser%26scope.md)
 6. [`==`보다 `===`을 써야할 때는?](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/6_comparison_operators.md)
+7. [DFS와 BFS의 동작원리를 짧게 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/7_graph_search.md)
 
 ___
 
