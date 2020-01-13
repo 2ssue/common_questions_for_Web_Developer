@@ -9,6 +9,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 5. [closure와 스코프의 관계를 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/5_clouser%26scope.md)
 6. [`==`보다 `===`을 써야할 때는?](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/6_comparison_operators.md)
 7. [DFS와 BFS의 동작원리를 짧게 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/7_graph_search.md)
+8. [ES6의 Class extends 내부 동작원리에 대해서 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/8_es6_class_extends.md)
 
 ___
 
