@@ -12,6 +12,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 8. [ES6의 Class extends 내부 동작원리에 대해서 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/8_es6_class_extends.md)
 9. [객체를 탐색하는 방법에 대해서 2가지를 작성해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/9_search_object_in_javascript.md)
 10. [NodeList 타입을, Array에 있는 reduce 메서드를 사용하는 방법은?](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/10_using_reduce_in_NodeList.md)
+11. [arrow 함수의 this가 결정되는 방식을 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/11_how_to_set_this_in_arrow_func.md)
 
 ___
 
