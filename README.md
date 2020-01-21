@@ -15,6 +15,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 11. [arrow 함수의 this가 결정되는 방식을 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/11_how_to_set_this_in_arrow_func.md)
 12. [immutable과 mutable은 무엇이 다른것인가요?](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/12_immutable%26mutable.md)
 13. [undefined와 null의 차이점을 설명하세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/13_undefined%26null.md)
+14. [flatten 함수를 reduce를 활용해서 만들어보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/14_custom_flatten_using_reduce.md)
 
 ___
 
