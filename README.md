@@ -18,6 +18,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 14. [flatten 함수를 reduce를 활용해서 만들어보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/14_custom_flatten_using_reduce.md)
 15. [객체를 복사해서 새로운 객체를 만들고 싶습니다. 코드를 구현해보세요 (객체의 깊이는 1단계만 있다고 가정)](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/15_copy_object.md)
 16. [Array.from 이 모든 브라우저에서 동작하도록 polyfill 코드를 만들어보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/16_Array.from()_polyfill.md)
+17. [prototype의 동작방식에 대해서 설명해보세요](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/17_prototype.md)
 
 ___
 
