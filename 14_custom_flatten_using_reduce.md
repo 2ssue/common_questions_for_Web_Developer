@@ -21,7 +21,7 @@ function flatten(arr) {
 function flattenAllUsingRecursive(arr) {
   return arr.reduce((acc, cur) => {
     if (Array.isArray(cur)) {
-      return acc.concat(flattenAll(cur));
+      return acc.concat(flattenAllUsingRecursive(cur));
     }
     return acc.concat(cur);
   }, []);
