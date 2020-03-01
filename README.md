@@ -2,7 +2,7 @@
 
 JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다. 
 
-🚩 [Javascript](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Javascript)
+## 🚩 [Javascript](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Javascript)
 
 - `Object.create()`의 역할은 무엇인가요?
 - 자바스크립트에서 모듈 내의 private한 속성을 만드는 방법을 아는대로 쓰세요
@@ -19,17 +19,17 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 - Array.from이 모든 브라우저에서 동작하도록 polyfill 코드를 만들어보세요
 - prototype의 동작 방식에 대해서 설명해보세요
 
-🚩 [Web](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Web)
+## 🚩 [Web](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Web)
 
 - 브라우저의 렌더링 동작과정을 짧게 설명해보세요
 - Event 객체에 대해서 설명해보세요
 
-🚩 [Programming](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Programming)
+## 🚩 [Programming](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Programming)
 
 - immutable과 mutable은 무엇이 다른것인가요?
 - 이벤트 기반 프로그래밍이란 무엇인가요?
 
-🚩 [Algorithm](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Algorithm)
+## 🚩 [Algorithm](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Algorithm)
 
 - DFS와 BFS의 동작 원리를 짧게 설명해보세요 
 
