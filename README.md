@@ -23,6 +23,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 
 - 브라우저의 렌더링 동작과정을 짧게 설명해보세요
 - Event 객체에 대해서 설명해보세요
+- REST란 무엇인가요?
 
 ## 🚩 [Programming](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Programming)
 
