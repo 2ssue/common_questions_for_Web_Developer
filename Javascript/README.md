@@ -14,3 +14,4 @@
 - [객체를 복사해서 새로운 객체를 만들고 싶습니다. 코드를 구현해보세요 (객체의 깊이는 1단계만 있다고 가정)](./15_copy_object.md)
 - [Array.from이 모든 브라우저에서 동작하도록 polyfill 코드를 만들어보세요](./16_Array.from()_polyfill.md)
 - [prototype의 동작 방식에 대해서 설명해보세요](./17_prototype.md)
+- [객체를 생성하는 다양한 방법을 설명해보세요. 언제 어떤 방법이 선호되나요?](./ways_to_create_object.md)
