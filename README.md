@@ -26,6 +26,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 - Event 객체에 대해서 설명해보세요
 - REST란 무엇인가요?
 - XSS란 무엇이고, 이 공격은 어떻게 예방할 수 있을까요?
+- CORS란 무엇인가요?
 
 ## 🚩 [Programming](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Programming)
 
