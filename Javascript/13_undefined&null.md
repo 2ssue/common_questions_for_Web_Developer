@@ -28,7 +28,13 @@ isNaN(1 + undefined) // true
 `null`은 원시값(Primitive Type) 중 하나로, 어떤 값이 **의도적으로** 비어있음을 표현한다. `undefined`는 값이 지정되지 않은 경우를 의미하지만, `null`의 경우에는 해당 변수가 어떤 객체도 가리키고 있지 않다는 것을 의미한다. 
 > cf) `null`은 `undefined`처럼 전역 객체의 속성 중 하나가 아니라 리터럴 값이다. 
 
+## 알아두면 좋은 것
+- `typeof undefined`는 출력하면 `undefined`이다.
+- `typeof null`은 출력하면 `object`이다. 하지만 이는 여전히 원시 타입(primitive value)로, JavaScript에서는 구현 버그로 간주한다.
+- `undefined == null`은 `true`이다.
+
 ## 참조
 - [MDN_용어사전_undefined](https://developer.mozilla.org/ko/docs/Glossary/undefined)
 - [MDN_표준 내장 객체_undefined](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 - [MDN_표준 내장 객체_null](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/null)
+- [What is the difference between `null` and `undefined`?](https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/null-vs-undefined.md)
