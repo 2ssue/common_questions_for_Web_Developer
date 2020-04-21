@@ -33,6 +33,7 @@ JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다.
 - immutable과 mutable은 무엇이 다른것인가요?
 - 이벤트 기반 프로그래밍이란 무엇인가요?
 - Event Delegation은 무엇이고, 이것은 왜 유용할까요? 이것을 사용하는 예시를 보여줄 수 있나요?
+- `'use stict'`는 무엇을 하고, 이것을 사용해서 얻는 이득들은 무엇이 있을까요?
 
 ## 🚩 [Algorithm](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Algorithm)
 
