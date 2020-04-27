@@ -11,6 +11,7 @@
   - 웹과 관련된 알아두면 좋은 지식
 - [Programming](#Programming)
   - 코드 작성 시 알아두면 좋은 지식
+- [Framework](#Framework)
 - [Algorithm](#Algorithm)
 
 ## 🚩 [JavaScript](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Javascript)
@@ -47,6 +48,10 @@
 - `'use stict'`는 무엇을 하고, 이것을 사용해서 얻는 이득들은 무엇이 있을까요?
 - 재귀란 무엇이고, 언제 이것이 유용할까요?
 - 순수함수란 무엇인가요?
+
+## 🚩 [Framework](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Framework)
+
+- HTML과 React event handling의 차이는 무엇일까요?
 
 ## 🚩 [Algorithm](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Algorithm)
 
