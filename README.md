@@ -1,8 +1,17 @@
 # Common Questions for JS Developer
 
-JS 개발자라면 알아야 할 흔한 질문들에 대해 정리합니다. 
+웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다. 잘못된 부분을 발견하시면 Issue를 통해 알려주세요. 언제든 환영입니다! 🙌 
 
-## 🚩 [Javascript](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Javascript)
+## 목차
+- [JavaScript](#JavaScript)
+  - JavaScript를 사용하면서 알아두면 좋은 지식
+- [Web](#Web)
+  - 웹과 관련된 알아두면 좋은 지식
+- [Programming](#Programming)
+  - 코드 작성 시 알아두면 좋은 지식
+- [Algorithm](#Algorithm)
+
+## 🚩 [JavaScript](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Javascript)
 
 - `Object.create()`의 역할은 무엇인가요?
 - 자바스크립트에서 모듈 내의 private한 속성을 만드는 방법을 아는대로 쓰세요
