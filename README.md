@@ -1,6 +1,8 @@
-# Common Questions for JS Developer
+# Common Questions for Web Developer
 
-웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다. 잘못된 부분을 발견하시면 Issue를 통해 알려주세요. 언제든 환영입니다! 🙌 
+웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다.
+
+잘못된 부분을 발견하시면 Issue를 통해 알려주세요. 언제든 환영입니다! 🙌 
 
 ## 목차
 - [JavaScript](#JavaScript)
