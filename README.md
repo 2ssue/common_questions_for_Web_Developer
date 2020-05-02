@@ -31,6 +31,7 @@
 - Array.from이 모든 브라우저에서 동작하도록 polyfill 코드를 만들어보세요
 - prototype의 동작 방식에 대해서 설명해보세요
 - 객체를 생성하는 다양한 방법을 설명해보세요. 언제 어떤 방법이 선호되나요?
+- mutable과 immutable 값과 mutating한 메서드와 non-mutating 한 메서드를 비교하시오
 
 ## 🚩 [Web](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Web)
 
