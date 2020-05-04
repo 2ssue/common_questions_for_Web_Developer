@@ -46,3 +46,6 @@ var myFunction = function(){
 ## 참고 링크
 - [MDN docs for hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 - [Understanding Hoisting in JavaScript](https://scotch.io/tutorials/understanding-hoisting-in-javascript)
+
+## 추가 참고 링크
+- [클로저와 스코프](./5_clouser&scope.md)
