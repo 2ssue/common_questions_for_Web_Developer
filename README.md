@@ -5,14 +5,14 @@
 잘못된 부분을 발견하시면 Issue를 통해 알려주세요. 언제든 환영입니다! 🙌 
 
 ## 목차
-- [JavaScript](#JavaScript)
+- [JavaScript](#-javascript)
   - JavaScript를 사용하면서 알아두면 좋은 지식
-- [Web](#Web)
+- [Web](#-web)
   - 웹과 관련된 알아두면 좋은 지식
-- [Programming](#Programming)
+- [Programming](#-programming)
   - 코드 작성 시 알아두면 좋은 지식
-- [Framework](#Framework)
-- [Algorithm](#Algorithm)
+- [Framework](#-framework)
+- [Algorithm](#-algorithm)
 
 ## 🚩 [JavaScript](https://github.com/2ssue/common_questions_for_JS_Developer/tree/master/Javascript)
 
