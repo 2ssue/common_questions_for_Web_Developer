@@ -1,0 +1,25 @@
+{
+  "name": "common_questions_for_web_developer",
+  "version": "1.0.0",
+  "description": "웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다.",
+  "main": "index.js",
+  "scripts": {
+    "doc": "vuepress dev",
+    "build": "vuepress build",
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ssue/common_questions_for_Web_Developer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ssue/common_questions_for_Web_Developer/issues"
+  },
+  "homepage": "https://github.com/2ssue/common_questions_for_Web_Developer#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
