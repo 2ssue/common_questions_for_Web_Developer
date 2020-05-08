@@ -6,6 +6,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: 'https://2ssue.github.io' },
+      { text: 'About me', link: 'https://2ssue.github.io/about' },
     ],
     sidebar: [
       ['/', 'Common Questions For Web Developer'],
