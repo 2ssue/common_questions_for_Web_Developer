@@ -1,6 +1,7 @@
 module.exports = {
+  base: '/common_questions_for_Web_Developer/',
+  assetsPublicPath: '/',
   title: "2ssue's dev note",
-  description: 'Being Awesome Developer',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
