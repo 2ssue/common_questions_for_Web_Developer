@@ -4,7 +4,6 @@
   "description": "웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다.",
   "main": "index.js",
   "scripts": {
-    "doc": "vuepress dev",
     "build": "vuepress build",
     "dev": "vuepress dev"
   },
