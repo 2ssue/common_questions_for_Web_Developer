@@ -16,5 +16,10 @@ module.exports = {
       '/docs/Programming/',
       '/docs/Web/',
     ],
+    repo: '2ssue/common_questions_for_Web_Developer',
+    repoLabel: 'GitHub',
+    editLinks: true,
+    docsBranch: 'master',
+    editLinkText: 'Edit this page🙌!',
   },
 };

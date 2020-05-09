@@ -1,3 +1,7 @@
+---
+editLink: false
+---
+
 # Common Questions for Web Developer
 
 웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다.
