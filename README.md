@@ -2,7 +2,7 @@
 
 웹 개발자가 알아두면 좋은 질문들에 대해 학습하고 정리하였습니다.
 
-잘못된 부분을 발견하시면 [Issue](https://github.com/2ssue/common_questions_for_Web_Developer/issues)를 통해 알려주세요. 언제든 환영입니다! 🙌 
+잘못된 부분을 발견하시면 [Issue](https://github.com/2ssue/common_questions_for_Web_Developer/issues)를 통해 알려주시거나, 직접 PR을 보내주세요. 언제든 환영입니다! 🙌 
 
 ## 목차
 - [JavaScript](/docs/Javascript/)
