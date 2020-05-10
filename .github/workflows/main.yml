@@ -33,5 +33,5 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy with vuepress'
-        git push -f master:ph-pages
+        git push -f https://github.com/2ssue/common_questions_for_Web_Developer.git master:gh-pages
         cd -
