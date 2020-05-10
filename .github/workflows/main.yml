@@ -22,10 +22,11 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Install and Build
       run: |
+        set -e
         npm install
         npm run build
         
-    - name: Commit Build Files
+    - name: Deploy Build Files
       run: |
         cd .vuepress/dist
         git config --global user.email "e2ssue@gmail.com"
@@ -33,7 +34,5 @@ jobs:
         git init
         git add -A
         git commit -m 'deploy with vuepress'
-    - name: Push & Deploy
-      run: |
         git push -f https://git@github.com/2ssue/common_questions_for_Web_Developer.git master:gh-pages
         cd -
