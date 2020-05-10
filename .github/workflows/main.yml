@@ -22,7 +22,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Install and Build
       run: |
-        set -e
         npm install
         npm run build
         
@@ -35,4 +34,3 @@ jobs:
         git add -A
         git commit -m 'deploy with vuepress'
         git push -f https://git@github.com/2ssue/common_questions_for_Web_Developer.git master:gh-pages
-        cd -
