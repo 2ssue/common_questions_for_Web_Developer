@@ -23,6 +23,7 @@ jobs:
     - name: Run build and commit
       run: |
         set -e
+        npm install
         npm run build
         cd .vuepress/dist
         git init
