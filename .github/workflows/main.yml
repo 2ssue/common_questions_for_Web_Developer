@@ -20,12 +20,16 @@ jobs:
       uses: actions/checkout@v2
 
     # Runs a set of commands using the runners shell
-    - name: Run build and commit
+    - name: Run build
       run: |
         set -e
         npm install
         npm run build
+    - name: git commit
+      run: |
         cd .vuepress/dist
+        git config user.email "e2ssue@gmail.com"
+        git config user.name "2ssue"
         git init
         git add -A
         git commit -m 'deploy with vuepress'
