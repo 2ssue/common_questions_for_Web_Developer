@@ -1,3 +1,5 @@
+const { getFilesOf } = require('./util.js');
+
 module.exports = {
   base: '/common_questions_for_Web_Developer/',
   assetsPublicPath: '/',
@@ -10,11 +12,32 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Common Questions For Web Developer'],
-      '/docs/Algorithm/',
-      '/docs/Framework/',
-      '/docs/Javascript/',
-      '/docs/Programming/',
-      '/docs/Web/',
+      {
+        title: 'JavaScript',
+        path: '/docs/Javascript/',
+        children: getFilesOf('docs/Javascript'),
+      },
+      {
+        title: 'Web',
+        path: '/docs/Web/',
+        children: getFilesOf('docs/Web'),
+      },
+      {
+        title: 'Programming',
+        path: '/docs/Programming/',
+        children: getFilesOf('docs/Programming'),
+      },
+      {
+        title: 'Framework',
+        path: '/docs/Framework/',
+        children: getFilesOf('docs/Framework'),
+      },
+
+      {
+        title: 'Algorithm',
+        path: '/docs/Algorithm/',
+        children: getFilesOf('docs/Algorithm'),
+      },
     ],
     repo: '2ssue/common_questions_for_Web_Developer',
     repoLabel: 'GitHub',

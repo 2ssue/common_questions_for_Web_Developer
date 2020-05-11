@@ -1,19 +1,4 @@
 ## JavaScript
 
-- [`Object.create()`의 역할은 무엇인가요?](./2_Object.create.md)
-- [자바스크립트에서 모듈 내의 private한 속성을 만드는 방법을 아는대로 쓰세요](./3_private_property.md)
-- [JS에서 재귀호출로 인한 stack overflow를 막을 수 있는 방법은?](./4_prevent_recursion_stack-overflow.md)
-- [closure와 스코프의 관계를 설명해보세요](./5_clouser&scope.md)
-- [`==`보다 `===`을 써야할 때는?](./6_comparison_operators.md)
-- [ES6의 Classs extends 내부 동작원리에 대해서 설명해보세요](./8_es6_class_extends.md)
-- [객체를 탐색하는 방법에 대해서 2가지를 작성해보세요](./9_search_object_in_javascript.md)
-- [NodeList 타입을, Array에 있는 reduce 메서드를 사용하는 방법은?](./10_using_reduce_in_NodeList.md)
-- [arrow 함수의 this가 결정되는 방식을 설명해보세요](./11_how_to_set_this_in_arrow_func.md)
-- [undefined와 null의 차이점을 설명하세요](./13_undefined&null.md)
-- [flatten 함수를 reduce를 활용해서 만들어보세요](./14_custom_flatten_using_reduce.md)
-- [객체를 복사해서 새로운 객체를 만들고 싶습니다. 코드를 구현해보세요 (객체의 깊이는 1단계만 있다고 가정)](./15_copy_object.md)
-- [Array.from이 모든 브라우저에서 동작하도록 polyfill 코드를 만들어보세요](./16_Array.from()_polyfill.md)
-- [prototype의 동작 방식에 대해서 설명해보세요](./17_prototype.md)
-- [객체를 생성하는 다양한 방법을 설명해보세요. 언제 어떤 방법이 선호되나요?](./ways_to_create_object.md)
-- [mutable과 immutable 값과 mutating한 메서드와 non-mutating 한 메서드를 비교하시오](./immutable&mutable.md)
-- [Javascript에서 hoisting은 어떻게 동작하나요?](./hoisting.md)
+JavaScript 기반과 관련된 알아두면 좋은 지식
+> closure, this, prototype, ...
