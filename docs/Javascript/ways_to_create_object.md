@@ -1,6 +1,6 @@
-> 30-Seconds-of-knowledge의 [Describe the different ways to create an object. When should certain ways be preferred over others?](https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/object-creation.md)를 번역한 글입니다.
-
 # 객체를 생성하는 다양한 방법을 설명해보세요. 언제 어떤 방법이 선호되나요?
+
+> 30-Seconds-of-knowledge의 [Describe the different ways to create an object. When should certain ways be preferred over others?](https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/object-creation.md)를 번역한 글입니다.
 
 ## Object literal
 데이터 저장이 한번만 발생할 때 주로 사용한다.
