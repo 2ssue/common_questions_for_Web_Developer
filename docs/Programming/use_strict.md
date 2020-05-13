@@ -1,4 +1,4 @@
-# `'use stict'`는 무엇을 하고, 이것을 사용해서 얻는 이득들은 무엇이 있을까요? 
+# `'use strict'`는 무엇을 하고, 이것을 사용해서 얻는 이득들은 무엇이 있을까요? 
 > This is a translation of 30-Seconds-of-knowledge's [What does 'use strict' do and what are some of the key benefits to using it?](https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/use-strict.md) in korean, and contains additional learning contents on this. 
 
 JavaScript 소스 코드 파일 맨 앞에 `'use strict'`를 사용하면 strict mode가 활성화되어 자바스크립트 코드를 좀 더 엄격하게 구문 분석하고 에러 처리를 할 수 있게 된다. (`'use strict'`는 함수 단위로도 사용이 가능하다) 이것은 좋은 관행으로 여겨지며, 아래와 같은 꽤 많은 이점이 있다.
