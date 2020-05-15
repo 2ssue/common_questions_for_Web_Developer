@@ -33,7 +33,11 @@ module.exports = {
         path: '/docs/Framework/',
         children: getFilesOf('docs/Framework'),
       },
-
+      {
+        title: 'CSS',
+        path: '/docs/CSS/',
+        children: getFilesOf('docs/CSS'),
+      },
       {
         title: 'Algorithm',
         path: '/docs/Algorithm/',

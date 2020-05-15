@@ -21,6 +21,8 @@ editLink: false
 - [Framework](/docs/Framework/)
   - Web Framework와 관련된 지식
     > React, ...
+- [CSS](/docs/CSS)
+  - CSS 작성 시 알아두면 좋은 지식
 - [Algorithm](/docs/Algorithm/)
 
 ::: warning 참고
