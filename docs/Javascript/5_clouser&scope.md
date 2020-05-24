@@ -4,7 +4,7 @@
 클로저는 비공개 변수를 가질 수 있는 환경에 있는 함수를 말한다.  
 
 비공개 변수란, 클로저 함수의 매개변수도 아니고 클로저 함수 내부에서 생성한 변수도 아닌 것을 말하는데, 
-아래 예제를 통해 간단하게 살펴보자면 makeClosure가 return 하는 `function() { console.log(name) }이 name 변수나 name 변수가 있는 
+아래 예제를 통해 간단하게 살펴보자면 makeClosure가 return 하는 `function() { console.log(name) }`이 name 변수나 name 변수가 있는 
 스코프에 대해 클로저라고 불려질 수 있다.  
 
 ```javascript
