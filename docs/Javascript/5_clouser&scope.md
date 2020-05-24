@@ -58,7 +58,7 @@ ES6부터는 블록 레벨의 스코프를 지원해, 위와 같이 `let`, `cons
 이 말이 조금 이해가 안가긴 하지만, 함수를 선언할 때 함수 내부의 변수들은 현재 자신의 스코프에서 가장 가까운 곳의 변수를 참조한다는 뜻이다.  
   
 따라서 아래와 같은 코드에서 모두 `name`을 출력시킨다고 할 때, 아래와 같은 결과가 나올 수 있는 것이다.  
-자세한 내용은 아래의 [Execution Context](/#Execution-Context)를 참고해보면 훨씬 더 쉽게 이해할 수 있다.  
+자세한 내용은 아래의 [Execution Context](#Execution-Context)를 참고해보면 훨씬 더 쉽게 이해할 수 있다.  
 
 ```javascript
 var name = 'tester';
