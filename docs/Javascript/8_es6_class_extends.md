@@ -51,7 +51,7 @@ Model.prototype.show = function(){
 
 ## 참고
 
-Model은 Car의 prototype을 상속받아 사용했기 때문에 Car의 함수들도 사용이 가능해지는데, 이는 prototype chain가 있기 때문에 가능한 것이다.  
+Model은 Car의 prototype을 상속받아 사용했기 때문에 Car의 함수들도 사용이 가능해지는데, 이는 prototype chain이 있기 때문에 가능한 것이다.  
 
 만약 위 코드의 mycar가 `Car`객체에 있는 `present()`를 사용하려고 한다면, 자바스크립트 엔진에서는 먼저 `Model` 객체를 확인한다. 하지만 Model에는 carname과 model만 존재하기 때문에 상위 객체를 확인하기 위해 Model의 prototype을 확인한다. Model의 prototype에는 Car가 있고, 그 안에는 `present()`가 있기 때문에 사용이 가능해진다. 이런 식으로 prototype을 타고 올라가 확인을 하기 때문에 이를 prototype chain이라고 부른다.  
 
