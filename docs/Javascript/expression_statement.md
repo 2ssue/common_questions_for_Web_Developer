@@ -1,4 +1,4 @@
-# Javascript에서 expression과 statement는 어떤 차이가 있을까요? 
+# JavaScript에서 expression과 statement는 어떤 차이가 있을까요? 
 > This is a translation of 30-Seconds-of-knowledge's [What is the difference between an expression and a statement in JavaScript?](https://github.com/30-seconds/30-seconds-of-interviews/blob/master/questions/expression-vs-statement.md) in korean.
 
 자바스크립트에는 expression과 statement라는 두가지 주요 구문 카테고리가 있다. 세번째는 이 둘을 합친 것으로, expression statement라고 일컫는다. 간단하게 요약해보자면 아래와 같다:
@@ -44,7 +44,7 @@ true === true // > true
 
 ### Expression statements
 
-아래는 삼항 연산자 Expression을 사용해 이전에 사용했던 [Statements 파트](#Statements)의 두번째 예시 코드와 동일한 역할을 하는 코드이다: 
+아래는 삼항 연산자 Expression을 사용해 이전에 사용했던 [Statements 파트](#statements)의 두번째 예시 코드와 동일한 역할을 하는 코드이다: 
 
 ```javascript
 // `y`의 절댓값을 `x`에 할당
