@@ -36,7 +36,7 @@ person2.birthday() //person2.age === 21 (true)
 ```
 
 ## Factory Function
-생성자 방식과 비슷하지만, clouser를 이용해 private 데이터를 저장할 수 있다. 또한 `new` 연산자나 `this` 키워드가 필요하지 않다. Factory Function은 프로토타입의 idea를 버리고, 모든 프로퍼티와 메소드를 객체의 고유한 속성으로 유지한다. 
+생성자 방식과 비슷하지만, closure를 이용해 private 데이터를 저장할 수 있다. 또한 `new` 연산자나 `this` 키워드가 필요하지 않다. Factory Function은 프로토타입의 idea를 버리고, 모든 프로퍼티와 메소드를 객체의 고유한 속성으로 유지한다. 
 
 ```javascript
 const createPerson = (name, age) => {
@@ -49,7 +49,7 @@ person.birthday() //person.age === 51
 ```
 
 ### 참고
-- [Clouser](./5_clouser&scope.md)
+- [Closure](./5_clouser&scope.md)
 
 ## `Object.create()`
 새로 생성된 객체의 프로토타입을 설정한다. 
