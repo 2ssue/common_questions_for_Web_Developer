@@ -30,3 +30,6 @@ document.addEventListener('click', e => {
 
 ## 참고 링크
 - [Event Delegation](https://davidwalsh.name/event-delegate)
+
+## Additional Reference Link
+- [event 객체](../Web/18_event_object.md)
