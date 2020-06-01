@@ -30,7 +30,7 @@ Javascript에서 `this` 키워드는 그것이 속한 객체를 가르키는 말
    >   return this; // undefined
    > } 
    > ```
-- Event 안에서 `this`는 해당 이벤트가 동작한 **element**를 의미한다. 
+- Event 안에서 `this`는 해당 이벤트가 **등록된 element**를 의미한다. 
 - `call()`, `apply()`, `bind()` 메소드들은 `this`를 어떤 객체로든 바꿀 수 있다. 
 
 #### `call()`과 `apply()`, `bind()`
