@@ -1,7 +1,7 @@
 # arrow 함수의 this가 결정되는 방식을 설명해보세요
 
 일반적으로 `this`의 객체는 정적으로 결정되는 것이 아니라, 호출 되었을 때 어떻게 호출되었느냐에 따라 동적으로 결정된다.  
-하지만 arrow function의 경우, 함수를 선언할 때 `this`에 바인딩할 객체가 정적으로 결정된다. 이전에 공부했던 [Lexical Scoping](https://github.com/2ssue/common_questions_for_JS_Developer/blob/master/5_clouser%26scope.md#lexical-scoping)와 비슷하게, 자신을 감싼 정적인 범위를 가리킨다.  
+하지만 arrow function의 경우, 함수를 선언할 때 `this`에 바인딩할 객체가 정적으로 결정된다. 이전에 공부했던 [Lexical Scoping](/docs/Javascript/5_clouser&scope.html#lexical-scoping)와 비슷하게, 자신을 감싼 정적인 범위를 가리킨다.  
   
 arrow function의 경우 `this`가 일반 함수와는 다르게 바인딩되기 때문에 조심해서 사용해야한다. 또한 arrow function을 `call()`, `bind()`, `apply()`를 사용해 호출할 때 `this`를 지정해주더라도 무시하기 때문에 주의해서 사용해야한다.  
 
