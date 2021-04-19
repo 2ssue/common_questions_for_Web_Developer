@@ -1,38 +1,30 @@
-name: build & deploy
+name: VuePress Page build & deploy
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build-and-deploy:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - name: checkout
-      uses: actions/checkout@v2
+      - name: checkout
+        uses: actions/checkout@v2
 
-    # Runs a set of commands using the runners shell
-    - name: Install and Build
-      run: |
-        npm install
-        npm run build
-        
-    - name: Deploy Build Files
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} 
-      run: |
-        cd .vuepress/dist
-        git config --global user.email "e2ssue@gmail.com"
-        git config --global user.name "2ssue"
-        git init
-        git add -A
-        git commit -m 'deploy with vuepress'
-        git push -f https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master:gh-pages
+      - name: Install and Build
+        run: |
+          yarn
+          yarn run build
+
+      - name: Deploy build files to gh-pages branch
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          cd .vuepress/dist
+          git config --global user.email "e2ssue@gmail.com"
+          git config --global user.name "${GITHUB_ACTOR}"
+          git init
+          git add -A
+          git commit -m "vuepress page deployed $GITHUB_SHA"
+          git push -f https://${ACCESS_TOKEN}@github.com/${GITHUB_REPOSITORY}.git master:gh-pages
